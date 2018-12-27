@@ -1,0 +1,47 @@
+@import '~antd/dist/antd.css';
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px
+}
+#root{
+    height: 100%;
+    width: 100%;
+}
+.layout_box{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+a{
+    color: #ffffff;;
+    text-decoration-line: none;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log_out{
+    width: 40px;
+    height: 40px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layout_body{
+    width: 100%;
+    flex: 1;
+}
